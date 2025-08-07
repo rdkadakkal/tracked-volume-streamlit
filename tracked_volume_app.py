@@ -5,7 +5,7 @@ import io
 st.title("Tracked Volume Filter App")
 
 st.write(
-    "Upload your Project44 data Excel file. This app will filter columns for 'Tracked Volume' and let you download the result with the 'Month' row at the top."
+    "Upload your data Excel file. This app will filter columns for 'Tracked Volume' and let you download the result."
 )
 
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx"])
